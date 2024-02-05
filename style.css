@@ -1,0 +1,164 @@
+body{
+    font-family: "Segoe UI";
+}
+/* .logo{
+    
+    /* background-color: blue; */
+/* } */ 
+
+.logo img{
+    width: 164px;
+    cursor: pointer;
+    /* height: 23px; */
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.right ul{
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span{
+    padding: 0 5px;
+}
+
+.first{
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+    margin: 70px;
+}
+
+.first span{
+    font-size: 48px;
+    font-family: 'Segoe UI';
+    color: #222222;
+}
+
+.second{
+    width: 60vw;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI'
+    
+}
+
+section span img{
+    width: 110px;
+    margin: 0 23px;
+}
+
+.btn{
+    background-color: #00b6d1;
+    padding: 14px 15px;
+    color: #ffffff;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 6px;
+    margin: 12px 0;
+    cursor: pointer;
+} 
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.green{
+    background-color: #5cb85c;
+    color: #ffffff;
+}
+.flex{
+    display: flex;
+}
+
+.small{
+    /* font-size: 60%; */
+    /* text-decoration: none; */
+    /* font-weight: 400; */
+    font-size: 12px;
+    /* margin: 0px;
+    padding: 0;
+    border: 0;
+    outline: 0; */
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+}
+
+.item{
+    background-color: #f9f9f9;
+    padding: 23px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.item-lan{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 4px;
+}
+small{
+    font-size: 12px;
+    font-weight: 400;
+}
+.item-lan1{
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.download:nth-child(2){
+    font-size: 24px;
+}
+
+
+.download img{
+    padding: 0px 12px;
+}
+.download{
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+    font-family: sans-serif;
+    align-items: center;
+
+}
+
+@media screen  and (max-width: 945px){
+    .grid{
+        /* background-color: rebeccapurple;
+        display: grid; */
+        grid-template-columns: 1fr;
+        /* gap: 12px; */
+    }
+}
